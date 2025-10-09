@@ -1,6 +1,10 @@
 uboot-rk1
 ====================
 
+## DEPRECATION NOTICE
+This repository moved to [archlinux-packages](https://github.com/damfle/archlinux-packages)
+
+
 Uboot package for ArchlinuxArm support on the [Turing RK1](https://turingpi.com/product/turing-rk1) board.
 
 
@@ -92,3 +96,4 @@ If one of theses commands don't work, you are probably still into a mounted dire
 `losetup -d /dev/loop0`
 
 And you're done. You now have an image that you can flash through the webui or via `scp` and `tpi` utilities (which I highly recommend).
+
